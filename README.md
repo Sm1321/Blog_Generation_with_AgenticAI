@@ -8,5 +8,8 @@
 
 
 
+
 ##### Utilized the UV Package
 - `pip install uv`
+- `uv init`
+- `uv venv`
