@@ -1,5 +1,5 @@
-#### Blog Genration APP WIth AgenticAI
--
+#### Blog Generation APP WIth AgenticAI
+- Used Langgraph 
 
 
 
