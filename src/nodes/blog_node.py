@@ -8,7 +8,7 @@ class BlogNode:
     """
 
     def __init__(self,llm):
-        self.llm=llm
+        self.llm = llm
 
     
     def title_creation(self,state:BlogState):
@@ -23,9 +23,9 @@ class BlogNode:
 
                    """
             
-            sytem_message=prompt.format(topic=state["topic"])
+            sytem_message = prompt.format(topic=state["topic"])
             print(sytem_message)
-            response=self.llm.invoke(sytem_message)
+            response = self.llm.invoke(sytem_message)
             print(response)
             return {"blog":{"title":response.content}}
         
